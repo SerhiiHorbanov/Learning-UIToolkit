@@ -1,8 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/MainMenuStyles.uss?fileID=7433441132597879392&amp;guid=8f4db2678b3cb9143abcd8d0c3dcd1b0&amp;type=3#MainMenuStyles" />
     <ui:VisualElement class="main-menu-buttons-backpanel" style="align-items: stretch; align-self: center; left: auto; top: 30%;">
-        <ui:Button text="Play" class="main-menu-button" />
-        <ui:Button text="Settings" class="main-menu-button" />
-        <ui:Button text="Settings" class="main-menu-button" />
+        <ui:Button text="Play" name="PlayButton" class="main-menu-button" />
+        <ui:Button text="Settings" name="SettingsButton" class="main-menu-button" />
+        <ui:Button text="Exit" name="ExitButton" class="main-menu-button" />
     </ui:VisualElement>
 </ui:UXML>
