@@ -1,11 +1,12 @@
 .main-menu-button {
-    background-color: aquamarine;
+    background-color: rgb(110, 241, 197);
     height: 28.66666%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 24px;
+    transition-duration: 0.5s;
 }
 
 .main-menu-buttons-backpanel {
@@ -15,4 +16,11 @@
     position: absolute;
     top: 180px;
     left: 271px;
+}
+
+.main-menu-button:hover {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    scale: 1.04 1.04;
+    background-color: rgb(134, 255, 214);
 }
