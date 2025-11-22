@@ -24,3 +24,8 @@
     scale: 1.04 1.04;
     background-color: rgb(134, 255, 214);
 }
+
+.main-menu-button:active {
+    background-color: rgb(17, 190, 160);
+    transition-duration: 0s;
+}
